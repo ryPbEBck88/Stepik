@@ -11,5 +11,4 @@ class Book:
     pages = 213
 
 # Мое решение
-print(Book.writer)
-print(Book.name)
+print(Book.writer, Book.name, sep='\n')
