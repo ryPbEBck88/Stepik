@@ -15,7 +15,6 @@ class Book:
     pages = 213
 
 
+# Мое решение
 setattr(Book, 'name', 'Скотный двор')
 setattr(Book,'pages', 115)
-
-# Мое решение
