@@ -20,4 +20,11 @@ class Person:
 
 
 # Мое решение
-[print('-'.join([word, ("NO", "YES")[hasattr(Person, word)]])) for word in input().split()]
+def print_bool_answer(line: str) -> str:
+    return '\n'.join(['-'.join([word, ("NO", "YES")[hasattr(Person, word)]]) for word in input().split()])
+
+
+# test1 =  
+# test2 = 
+# test3 = 
+assert print_bool_answer('age date address') == 'age-YES\ndate-NO\naddress-YES'
